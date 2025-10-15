@@ -1,0 +1,19 @@
+<manifest>
+  <!-- Device tree -->
+  <project name="iRaviTiwari/android_device_xiaomi_onyx"
+           path="device/xiaomi/onyx"
+           remote="github"
+           revision="main" />
+
+  <!-- Vendor blobs -->
+  <project name="iRaviTiwari/android_vendor_xiaomi_onyx"
+           path="vendor/xiaomi/onyx"
+           remote="github"
+           revision="main" />
+
+  <!-- Kernel (official Xiaomi source) -->
+  <project name="MiCode/Xiaomi_Kernel_OpenSource"
+           path="kernel/xiaomi/onyx"
+           remote="github"
+           revision="onyx-q-oss" />
+</manifest>
